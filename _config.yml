@@ -1,0 +1,21 @@
+# Site settings
+title: Dev N Learn
+header-img: img/home-bg.png
+email: onye@smmaven.com
+copyright_name: nigeriangirl
+description: > # this means to ignore newlines until "baseurl:"
+  A window into this budding developer's studies
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: nigeriangirl1
+github_username:  nigeriangirl
+learn_profile: nigeriangirl
+email_username: onye@smmaven.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
